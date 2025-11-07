@@ -89,13 +89,13 @@ You can create `requirements.txt` using the list above or run `pip freeze` after
 
      ```powershell
      python -m venv venv
-     .\venv\Scripts\Activate.ps1
+     .\venv\Scripts\activate
      ```
    * Windows (cmd):
 
      ```cmd
      python -m venv venv
-     venv\Scripts\activate.bat
+     venv\Scripts\activate
      ```
 
 3. **Install dependencies**
@@ -131,6 +131,7 @@ You can create `requirements.txt` using the list above or run `pip freeze` after
 ```
 
 ---
+
 
 
 
