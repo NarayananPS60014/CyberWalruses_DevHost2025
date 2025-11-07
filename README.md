@@ -110,7 +110,7 @@ You can create `requirements.txt` using the list above or run `pip freeze` after
    pip install streamlit pandas numpy plotly scikit-learn joblib chardet requests
    ```
 
-4. **Optional: Expose LM Studio / local LLM (for AI recommendations)**
+4. **CRITICAL: Expose LM Studio / local LLM (for AI recommendations)**
 
    * The app attempts to call a local LM Studio-like HTTP endpoint at `http://localhost:1234/v1/chat/completions`.
    * If you have a local LM (LM Studio, Llama server, etc.), start it and expose an API compatible with the `messages` chat-completion format.
@@ -128,20 +128,9 @@ You can create `requirements.txt` using the list above or run `pip freeze` after
 
 ---
 
-## Example commands (quick copy)
-
-```bash
-# create env
-python3 -m venv venv
-source venv/bin/activate
-
-# install
-pip install -r requirements.txt
-
-# run
-streamlit run app.py
 ```
 
 ---
+
 
 
