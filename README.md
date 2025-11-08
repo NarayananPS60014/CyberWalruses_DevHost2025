@@ -125,6 +125,3 @@ You can create `requirements.txt` using the list above or run `pip freeze` after
 6. **Open in browser**
 
    * After Streamlit starts, open `http://localhost:8501` (or the URL given in your terminal).
-
----
-
