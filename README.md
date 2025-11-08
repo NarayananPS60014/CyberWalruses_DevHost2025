@@ -128,7 +128,3 @@ You can create `requirements.txt` using the list above or run `pip freeze` after
 
 ---
 
-
-
-
-
