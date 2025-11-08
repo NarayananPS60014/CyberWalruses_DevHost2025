@@ -44,7 +44,6 @@ KULDIO provides a single, unified platform to automate this entire process. Our 
 
 * `app.py` (or the single-file Streamlit script): main application code (the code you provided)
 * `esg_data_template.csv`: downloadable CSV template created inside the app (sample rows)
-* *Optional*: `esg_prediction_model.joblib` — saved model file created by the app (if model saved)
 
 > Note: In this prototype everything is bundled in one Streamlit file for ease of demonstration.
 
@@ -125,3 +124,4 @@ You can create `requirements.txt` using the list above or run `pip freeze` after
 6. **Open in browser**
 
    * After Streamlit starts, open `http://localhost:8501` (or the URL given in your terminal).
+
