@@ -2,7 +2,7 @@
 
 **Team:** Cyber Walruses
 
-**Project:** AI-Powered Carbon Compliance & ESG Reporting Automation (Hackathon Prototype)
+**Project:** AI-Powered Carbon Compliance & ESG Reporting Automation (Hackathon Prototype).
 
 **Short description**
 A Streamlit prototype that demonstrates an end-to-end approach for automated ESG data integration, basic emissions forecasting, EU Taxonomy alignment checks and AI-powered recommendations. The app ingests heterogeneous CSV files (utility bills, ERP extracts, meter dumps), normalizes dates/units, derives CO₂ metrics where missing, and produces simple CSRD-style reports and dashboards.
@@ -124,4 +124,5 @@ You can create `requirements.txt` using the list above or run `pip freeze` after
 6. **Open in browser**
 
    * After Streamlit starts, open `http://localhost:8501` (or the URL given in your terminal).
+
 
